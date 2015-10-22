@@ -1,0 +1,16 @@
+<resources>
+
+    <declare-styleable name="StackedLayout">
+        <attr name="android:layout_gravity"/>
+        <attr name="frameColor" format="color|reference"/>
+        <attr name="framePadding" format="dimension|reference"/>
+        <attr name="frameCount" format="integer|reference"/>
+        <attr name="frameMaxCount" format="integer|reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="AspectRatioFrameLayout">
+        <attr name="aspectRatio" format="float|reference" />
+        <attr name="aspectThreshold" format="float|reference" />
+    </declare-styleable>
+
+</resources>

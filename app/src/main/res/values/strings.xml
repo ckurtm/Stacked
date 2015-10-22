@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Stacked</string>
+
+    <string-array name="account_type">
+        <item>Pre-paid</item>
+        <item>Post-paid</item>
+    </string-array>
+</resources>
