@@ -21,71 +21,30 @@
         android:orientation="horizontal"
         >
 
-        <com.peirra.stacked.StackedLayout
-            android:layout_width="100dp"
-            android:layout_height="133dp"
-            android:background="@android:color/transparent"
-            android:padding="1dp"
-            app:frameColor="#ffffff"
-            app:framePadding="8dp"
-            app:frameCount="1">
-            <ImageView
-                android:scaleType="fitXY"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/poster"
-                />
-        </com.peirra.stacked.StackedLayout>
-
-
-        <com.peirra.stacked.StackedLayout
-            android:layout_width="100dp"
-            android:layout_height="133dp"
-            android:background="@android:color/transparent"
-            android:padding="1dp"
-            app:frameColor="#ffffff"
-            app:framePadding="8dp"
-            app:frameCount="6"
-            app:frameMaxCount="10">
-            <ImageView
-                android:scaleType="fitXY"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/poster"/>
-        </com.peirra.stacked.StackedLayout>
-
-        <com.peirra.stacked.StackedLayout
+        <com.peirra.stacked.StackedImageView
             android:layout_width="110dp"
             android:layout_height="146dp"
             android:background="@android:color/transparent"
             android:padding="1dp"
-            app:frameColor="#ffffff"
-            app:framePadding="8dp"
-            app:frameCount="4">
-            <ImageView
-                android:scaleType="fitXY"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/poster"
-                />
-        </com.peirra.stacked.StackedLayout>
+            app:siv_frameColor="#ffffff"
+            app:siv_framePadding="8dp"
+            app:siv_frameCount="1"
+            android:src="@drawable/poster"
+            />
 
-
-        <com.peirra.stacked.StackedLayout
-            android:layout_width="100dp"
-            android:layout_height="133dp"
+        <com.peirra.stacked.StackedImageView
+            android:layout_width="110dp"
+            android:layout_height="146dp"
             android:background="@android:color/transparent"
             android:padding="1dp"
-            app:frameColor="#ffffff"
-            app:framePadding="8dp"
-            app:frameCount="5">
-            <ImageView
-                android:scaleType="fitXY"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/poster"
-                />
-        </com.peirra.stacked.StackedLayout>
+            app:siv_frameColor="#ffffff"
+            app:siv_framePadding="8dp"
+            app:siv_frameCount="6"
+            app:siv_frameMaxCount="10"
+            android:src="@drawable/poster"
+            />
+
+
     </LinearLayout>
 
 

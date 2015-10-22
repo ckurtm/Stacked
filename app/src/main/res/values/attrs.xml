@@ -8,6 +8,18 @@
         <attr name="frameMaxCount" format="integer|reference"/>
     </declare-styleable>
 
+
+    <declare-styleable name="StackedImageView">
+        <attr name="android:layout_gravity"/>
+        <attr name="siv_frameColor" format="color|reference"/>
+        <attr name="siv_framePadding" format="dimension|reference"/>
+        <attr name="siv_frameCount" format="integer|reference"/>
+        <attr name="siv_frameMaxCount" format="integer|reference"/>
+        <attr name="android:src"/>
+        <attr name="android:scaleType"/>
+    </declare-styleable>
+
+
     <declare-styleable name="AspectRatioFrameLayout">
         <attr name="aspectRatio" format="float|reference" />
         <attr name="aspectThreshold" format="float|reference" />
